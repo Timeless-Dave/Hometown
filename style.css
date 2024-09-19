@@ -1,0 +1,73 @@
+body {
+    background: #ffffff;
+    text-align: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/hero-bg.png");
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    margin: 0px auto -15px auto;
+    color: #ffffff;
+}
+#hero-title {
+    /* display: inline-block; */
+    background: #1D3557;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 150px;
+    margin: 120px auto 0 auto;
+}
+#hero-text {
+    /* display: inline-block; */
+    background: #457B9D;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 300px;
+    margin: 15px auto 0px auto;
+}
+#activities {
+    display: flex;
+    margin: 30px auto;
+    justify-content: space-around;
+}
+#whole-activities {
+    height: 343px;
+    width: 720px;
+    padding-top: 25px;
+    margin: 0px auto;
+    background: #F1FAEE;
+}
+img {
+    width: 70px;
+    border-radius: 50%;
+}
+.act {
+    width: 198px;
+    height: 227px;
+} 
+#profile {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 400px;
+    background: #A8DADC;
+    border-radius: 10px;
+    border-bottom: 5px solid #1D3557;
+    margin: 50px auto;
+}
+#profile-pic {
+    width: 180px;
+    height: 250px;
+    background: #ffffff;
+    border-radius: 15px;
+    margin: auto auto;
+}
+#profile-txt {
+    width: 180px;
+    margin: auto;
+}
